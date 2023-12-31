@@ -32,10 +32,9 @@ Ideally, we would like 100% of human images with a detected face and 0% of dog i
 A pre-trained ResNet50 model to detect dogs in images was used.  The data was pre-processed.  Then a ``dog_detector`` function was then written, applied to the numpy arrays ``human_files_short`` and ``dog_files_short`` with the targeted output returning ``True`` if a dog is detected in an image and ``False`` if not detected.
 
 **Step 3: Create a CNN to Classify Dog Breeds (from Scratch)**  
-Step 3 required that I create a CNN from scratch that classifies dog breeds. The required test accuracy to be attained was to be at least 1%.
+Step 3 required that I create a CNN from scratch that classifies dog breeds. Firstly the data had to be pre-processed using the code given in the Jupyter Notebook to ensure that the image is resized it to a square image that is 224×224 pixels. The returned tensor has the shape (1,224,224,3).  Then a model architecture had to be specified. I used the model recommended in the notebook that trains relatively fast on CPU and attains >1% test accuracy in 5 epochs. The model was compiled using an Adam (Adaptative Moment Estimation) loss function and then trained with model checkpointing to save the model that attained the best validation loss.The required test accuracy to be attained was to be at least 1%.
 
 **Step 4: Use a CNN to Classify Dog Breeds (using Transfer Learning)**
-
 The task was to use transfer learning to train a CNN using VGG-16 bottleneck features.The model was compiled and trained with 20 epochs. The model with the best validation loss was saved using model checkpointing.  The model was loaded and tested to gauge how well it identifies the dog breeds. 
 
 **Step 5: Create a CNN to Classify Dog Breeds (using Transfer Learning)**  
@@ -50,11 +49,20 @@ The algorithm was to be tested on at least two human and two dog images.
 
 
 ## File Descriptions and Analyses <a name="File-Descriptions-and-Analyses"></a>  
-``haarcascades``: folder contains pre-trained face detectors
 
-haarcascade_frontface_alt.xml: the pre-trained face detector used in the dog_app.ipynb Jupyter notebook
+bottleneck_features: folder contains pre-trained models
+    DogVGG16Data.npz: pre-trained VGG16 model   
+    DogResnet50Data.npz: pre-trained ResNet50 model   
+    
+``haarcascades``: folder contains pre-trained face detectors
+  haarcascade_frontface_alt.xml: the pre-trained face detector used in the dog_app.ipynb Jupyter notebook
 
 images: folder contains example images used to test in step 7
+
+saved_models: folder stores the trained models with the best validation loss for steps 3 to 5
+    weights.best.from_scratch.hdf5: stores the trained model with the best validation loss from self-created CNN
+    weights.best.VGG16.hdf5: stores the trained model with the best validation loss from VGG16 model
+    weights.bes.Resnet50.hdf5: stores the trained model with the best validation loss from ResNet50 model
 
 test: folder contains additional test images used to test in step 7
 
@@ -62,24 +70,9 @@ dog_app.ipynb: Jupyter notebook containing the Dog Breed Workspace
 
 extract_bottleneck_features.py: Python function to extract bottleneck features
 
-bottleneck_features: folder contains pre-trained models
-
-DogVGG16Data.npz: pre-trained VGG16 model   
-
-DogResnet50Data.npz: pre-trained ResNet50 model   
-
-saved_models: folder stores the trained models with the best validation loss for steps 3 to 5
-
-weights.best.from_scratch.hdf5: stores the trained model with the best validation loss from self-created CNN
-
-weights.best.VGG16.hdf5: stores the trained model with the best validation loss from VGG16 model
-
-weights.bes.Resnet50.hdf5: stores the trained model with the best validation loss from ResNet50 model
-
-
 ## Results <a name="Results"></a>
 
-**I. Exploratory Data Analysis**
+**Exploratory Data Analysis**
 ![image](https://github.com/nirvannar/Capstone-Dog-Breed/assets/52913504/1b9a8581-4a08-4407-96c3-4335685824bf)
 
 
@@ -117,8 +110,6 @@ The algorithm was tested on three dog images, three human images and an image of
 ![image](https://github.com/nirvannar/Capstone-Dog-Breed/assets/52913504/b3d184b0-7872-45b1-a440-c75e57fb1d0d)
 
 ![image](https://github.com/nirvannar/Capstone-Dog-Breed/assets/52913504/028a7f9b-23c0-43ea-8c20-f1e79ff2876f)
-
-![image](https://github.com/nirvannar/Capstone-Dog-Breed/assets/52913504/08ad2cd7-1257-42dd-b799-4721242c8c42)
 
 ![image](https://github.com/nirvannar/Capstone-Dog-Breed/assets/52913504/c62c7767-d6a0-4b3e-a83d-0482f634157b)
 
