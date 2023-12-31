@@ -1,7 +1,7 @@
 # Capstone-Dog-Breed
 Udacity Capstone Project for the Data Scientist Nanodegree Program
 
-This GitHub repo contains the code, dataset, and README.md files for the Udacity Capstone Project is the final project for the Data Science nanodegree.
+This GitHub repo contains the code, dataset, and README.md files for the final project for the Data Science nanodegree.
 
 # Table of Contents
 
@@ -49,20 +49,21 @@ The algorithm was to be tested on at least two human and two dog images.
 
 
 ## File Descriptions and Analyses <a name="File-Descriptions-and-Analyses"></a>  
+**The following files and folders are founf under the dog-project folder and are part of the working files**  
 
-bottleneck_features: folder contains pre-trained models
-    DogVGG16Data.npz: pre-trained VGG16 model   
-    DogResnet50Data.npz: pre-trained ResNet50 model   
+bottleneck_features: folder contains pre-trained models (not saved to github due to file sizes)  
+&nbsp;&nbsp;&nbsp;&nbsp;DogVGG16Data.npz: pre-trained VGG16 model     
+&nbsp;&nbsp;&nbsp;&nbsp;DogResnet50Data.npz: pre-trained ResNet50 model     
     
-``haarcascades``: folder contains pre-trained face detectors
-  haarcascade_frontface_alt.xml: the pre-trained face detector used in the dog_app.ipynb Jupyter notebook
+``haarcascades``: folder contains pre-trained face detectors  
+&nbsp;&nbsp;&nbsp;&nbsp;haarcascade_frontface_alt.xml: the pre-trained face detector used in the dog_app.ipynb Jupyter notebook
 
 images: folder contains example images used to test in step 7
 
-saved_models: folder stores the trained models with the best validation loss for steps 3 to 5
-    weights.best.from_scratch.hdf5: stores the trained model with the best validation loss from self-created CNN
-    weights.best.VGG16.hdf5: stores the trained model with the best validation loss from VGG16 model
-    weights.bes.Resnet50.hdf5: stores the trained model with the best validation loss from ResNet50 model
+saved_models: folder stores the trained models with the best validation loss for steps 3 to 5  
+&nbsp;&nbsp;&nbsp;&nbsp;weights.best.from_scratch.hdf5: stores the trained model with the best validation loss from self-created CNN  
+&nbsp;&nbsp;&nbsp;&nbsp;weights.best.VGG16.hdf5: stores the trained model with the best validation loss from VGG16 model  
+&nbsp;&nbsp;&nbsp;&nbsp;weights.bes.Resnet50.hdf5: stores the trained model with the best validation loss from ResNet50 model  
 
 test: folder contains additional test images used to test in step 7
 
@@ -110,8 +111,6 @@ The algorithm was tested on three dog images, three human images and an image of
 ![image](https://github.com/nirvannar/Capstone-Dog-Breed/assets/52913504/b3d184b0-7872-45b1-a440-c75e57fb1d0d)
 
 ![image](https://github.com/nirvannar/Capstone-Dog-Breed/assets/52913504/028a7f9b-23c0-43ea-8c20-f1e79ff2876f)
-
-![image](https://github.com/nirvannar/Capstone-Dog-Breed/assets/52913504/c62c7767-d6a0-4b3e-a83d-0482f634157b)
 
 ![image](https://github.com/nirvannar/Capstone-Dog-Breed/assets/52913504/92720855-b65f-4ab7-85d9-07720308d95b)
 
