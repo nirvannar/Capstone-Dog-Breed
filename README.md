@@ -112,6 +112,12 @@ The algorithm was tested on three dog images, three human images and an image of
 
 ![image](https://github.com/nirvannar/Capstone-Dog-Breed/assets/52913504/028a7f9b-23c0-43ea-8c20-f1e79ff2876f)
 
+![image](https://github.com/nirvannar/Capstone-Dog-Breed/assets/52913504/6defd60e-f926-4b35-9b08-2becc49ab4bd)
+
+![image](https://github.com/nirvannar/Capstone-Dog-Breed/assets/52913504/54af7fdb-afc1-4fa0-abf3-b08099047c40)
+
+
+
 ![image](https://github.com/nirvannar/Capstone-Dog-Breed/assets/52913504/92720855-b65f-4ab7-85d9-07720308d95b)
 
 ![image](https://github.com/nirvannar/Capstone-Dog-Breed/assets/52913504/e80162e9-d2b7-4b38-964f-e4cb7b0d21e2)
@@ -127,8 +133,6 @@ The algorithm was tested on three dog images, three human images and an image of
 [Udacity](https://learn.udacity.com/nanodegrees/nd025/parts/cd1971/lessons/e3f2b25a-5e8a-404f-a1f8-18c3524ce867/concepts/98fa9de4-2ae3-4e3c-9fda-9bdbde2bf459)
 
 [Github](https://github.com/)
-
-[Labrador Retriever image](https://hips.hearstapps.com/hmg-prod/images/dog-1598970334.png?crop=0.563xw:1.00xh;0.231xw,0&resize=980:*)
 
 [Chow chow dogs image](https://hips.hearstapps.com/hmg-prod/images/chow-chow-dog-breed-651d88c291c70.jpg?crop=0.668xw:1.00xh;0.197xw,0&resize=1200:*)
 
