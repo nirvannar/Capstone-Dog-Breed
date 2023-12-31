@@ -169,6 +169,11 @@ The algorithm was tested on three dog images, three human images and an image of
 
 [Exploring ResNet50: An In-Depth Look at the Model Architecture and Code Implementation](https://medium.com/@nitishkundu1993/exploring-resnet50-an-in-depth-look-at-the-model-architecture-and-code-implementation-d8d8fa67e46f#:~:text=ResNet50%20is%20a%20deep%20convolutional,which%20is%2050%20layers%20deep.)
 
+[GAP](https://medium.com/r/?url=https%3A%2F%2Fpaperswithcode.com%2Fmethod%2Fglobal-average-pooling)
+
+[Global Average Pooling](https://medium.com/r/?url=https%3A%2F%2Fiq.opengenus.org%2Fglobal-average-pooling%2F)
+
+
 
 
 
