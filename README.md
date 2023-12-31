@@ -49,10 +49,7 @@ The face_detector and dog_detector functions developed in steps 1 and 2 above we
 The algorithm was to be tested on at least two human and two dog images.  
 
 
-## File Descriptions and Analyses <a name="File-Descriptions-and-Analyses"></a>
-**_Data Preparation_**  
-
-
+## File Descriptions and Analyses <a name="File-Descriptions-and-Analyses"></a>  
 ``haarcascades``: folder contains pre-trained face detectors
 
 haarcascade_frontface_alt.xml: the pre-trained face detector used in the dog_app.ipynb Jupyter notebook
@@ -173,7 +170,7 @@ The algorithm was tested on three dog images, three human images and an image of
 
 [Global Average Pooling](https://medium.com/r/?url=https%3A%2F%2Fiq.opengenus.org%2Fglobal-average-pooling%2F)
 
-
+[Keras.io](https://keras.io/examples/vision/image_classification_from_scratch/)
 
 
 
