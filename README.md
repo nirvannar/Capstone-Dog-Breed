@@ -1,7 +1,7 @@
 # Capstone-Dog-Breed
 Udacity Capstone Project for the Data Scientist Nanodegree Program
 
-This GitHub repo contains the code, dataset, and README.md files for the final project for the Data Science nanodegree.
+This GitHub repo contains the code, dataset, and README.md files for the final project for the Data Science Nanodegree.
 
 # Table of Contents
 
@@ -17,7 +17,7 @@ The code should run with no issues using Python versions 3.8.8 and using Jupyter
 Numpy, sklearn.datasets, glob, keras.utils, sklearn.datasets, random, cv2, matplotlib.pyplot, keras.applications.resnet50, keras.preprocessing, tqdm, PIL, keras.layers, keras.models, keras.optimizers, keras.callbacks, and os were the libraries used.  
 
 ## Project Motivation <a name="Project-Motivation"></a>
-This Capstone Project is the final project for the Data Scientist Nanodegree Program.  For this project given an image of a dog, the classifier housed in a Jupyter notebook is expected to identify the breed. If supplied an image of a human, the code will identify the resembling dog breed. Otherwise it will output an error message.  My blog on [Github](https://github.com/) details the project.
+This Capstone Project is the final project for the Data Scientist Nanodegree Program.  For this project given an image of a dog, the classifier housed in a Jupyter notebook is expected to identify the breed. If supplied an image of a human, the code will identify the resembling dog breed. Otherwise it will output an error message.  My [Medium blog](https://medium.com/@nirvannsramp/what-breed-of-dog-is-that-dog-breed-classifier-b485852f6b0d) details the project.
 
 **_Business Problem Understanding_**  
 The project will be divided into the following tasks
@@ -125,12 +125,13 @@ The algorithm was tested on three dog images, three human images and an image of
 ![image](https://github.com/nirvannar/Capstone-Dog-Breed/assets/52913504/954586f8-8c3c-4609-bee6-4e299ff68f45)
 
 
-[Medium blog](https://medium.com/@nirvannsramp/dog-breed-classifier-b485852f6b0d)
-
-
 ## Licensing, Authors, and Acknowledgements<a name="Licensing,-Authors,- and- Acknowledgements"></a>
 
 [Udacity](https://learn.udacity.com/nanodegrees/nd025/parts/cd1971/lessons/e3f2b25a-5e8a-404f-a1f8-18c3524ce867/concepts/98fa9de4-2ae3-4e3c-9fda-9bdbde2bf459)
+
+[GitHub](https://github.com/)
+
+[Medium blog](https://medium.com/@nirvannsramp/what-breed-of-dog-is-that-dog-breed-classifier-b485852f6b0d)
 
 [Chow chow dogs image](https://hips.hearstapps.com/hmg-prod/images/chow-chow-dog-breed-651d88c291c70.jpg?crop=0.668xw:1.00xh;0.197xw,0&resize=1200:*)
 
@@ -152,9 +153,9 @@ The algorithm was tested on three dog images, three human images and an image of
 
 [CNN transfer learning](https://towardsdatascience.com/transfer-learning-with-convolutional-neural-networks-in-pytorch-dd09190245ce)
 
-[Ai, ML and DL differences](https://towardsdatascience.com/understanding-the-difference-between-ai-ml-and-dl-cceb63252a6c)
+[AI, ML and DL differences](https://towardsdatascience.com/understanding-the-difference-between-ai-ml-and-dl-cceb63252a6c)
 
-[artificial intelligence](https://www.britannica.com/technology/artificial-intelligence) 
+[Artificial Intelligence](https://www.britannica.com/technology/artificial-intelligence) 
 
 [Exploring ResNet50: An In-Depth Look at the Model Architecture and Code Implementation](https://medium.com/@nitishkundu1993/exploring-resnet50-an-in-depth-look-at-the-model-architecture-and-code-implementation-d8d8fa67e46f#:~:text=ResNet50%20is%20a%20deep%20convolutional,which%20is%2050%20layers%20deep.)
 
