@@ -17,7 +17,7 @@ The code should run with no issues using Python versions 3.8.8 and using Jupyter
 Numpy, sklearn.datasets, glob, keras.utils, sklearn.datasets, random, cv2, matplotlib.pyplot, keras.applications.resnet50, keras.preprocessing, tqdm, PIL, keras.layers, keras.models, keras.optimizers, keras.callbacks, and os were the libraries used.  
 
 ## Project Motivation <a name="Project-Motivation"></a>
-This Capstone Project is the final project for the Data Scientist Nanodegree Program.  For this project given an image of a dog, the classifier housed in a Jupyter notebook is expected to identify the breed. If supplied an image of a human, the code will identify the resembling dog breed. Otherwise it will output an error message.  
+This Capstone Project is the final project for the Data Scientist Nanodegree Program.  For this project given an image of a dog, the classifier housed in a Jupyter notebook is expected to identify the breed. If supplied an image of a human, the code will identify the resembling dog breed. Otherwise it will output an error message.  My blog on [Github](https://github.com/) details the project.
 
 **_Business Problem Understanding_**  
 The project will be divided into the following tasks
@@ -51,7 +51,7 @@ The algorithm was to be tested on at least two human and two dog images.
 ## File Descriptions and Analyses <a name="File-Descriptions-and-Analyses"></a>  
 **The following files and folders are founf under the dog-project folder and are part of the working files**  
 
-bottleneck_features: folder contains pre-trained models (not saved to github due to file sizes)  
+bottleneck_features: folder contains pre-trained models (not saved to GitHub due to file sizes)  
 &nbsp;&nbsp;&nbsp;&nbsp;DogVGG16Data.npz: pre-trained VGG16 model     
 &nbsp;&nbsp;&nbsp;&nbsp;DogResnet50Data.npz: pre-trained ResNet50 model     
     
@@ -131,8 +131,6 @@ The algorithm was tested on three dog images, three human images and an image of
 ## Licensing, Authors, and Acknowledgements<a name="Licensing,-Authors,- and- Acknowledgements"></a>
 
 [Udacity](https://learn.udacity.com/nanodegrees/nd025/parts/cd1971/lessons/e3f2b25a-5e8a-404f-a1f8-18c3524ce867/concepts/98fa9de4-2ae3-4e3c-9fda-9bdbde2bf459)
-
-[Github](https://github.com/)
 
 [Chow chow dogs image](https://hips.hearstapps.com/hmg-prod/images/chow-chow-dog-breed-651d88c291c70.jpg?crop=0.668xw:1.00xh;0.197xw,0&resize=1200:*)
 
